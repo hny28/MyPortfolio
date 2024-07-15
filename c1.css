@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.main{
+
+    background-image: url("pinkback.jpg");
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     width: auto;
+     height: 100vh;
+     
+}
+.info_cn{
+    
+    width: auto;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    opacity: 0.8;
+    border-radius: 8px;
+    height: 100vh;
+
+    
+    
+
+
+}
+.navbar{
+    height:10vh;
+    width: auto;
+    background-color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    word-spacing: 80px;
+    text-indent: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: -10px;
+    font-weight: bolder;
+  
+}
+.navbar a{
+    text-decoration: none;
+    
+
+}
+.navbar a:hover{
+    color:blueviolet;
+ font-weight: bold;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bolder;
+
+}
+.intro{
+    margin-left: 0;
+    margin-top: 90px;
+    padding-top: 100px;
+   word-spacing: 5px;
+   color: white;
+
+}
+.intro span{
+    animation-name: ex1;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes ex1{
+        from{
+            color:rgb(196, 191, 194);
+            
+            
+        
+        }
+        to{
+            color:rgb(189, 45, 191);
+            
+            
+        
+        }
+
+
+
+}
+.pic img{
+    
+    height: 55vh ;
+    width: 20vw;
+    padding-top: 50px;
+    padding-left: 0%;
+    
+   
+}
+.btn button{
+    margin-top: 19px;
+    padding: 20px;
+    color:rgb(189, 45, 191) ;
+    background-color: rgb(220, 212, 212);
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 6px;
+    word-spacing: 3px;
+    width: 150px;
+
+
+}
+.btn button:hover{
+    background-color: rgb(207, 47, 210);
+    color:rgb(208, 198, 198);
+    font-size: large;
+
+}
+.info1{
+    font-size: 35px;
+    
+    
+}
+.info2{
+    font-size: 40px;
+    margin-top: 5px;
+}
+.info3{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.contactform{
+    height: 90vh;
+    width: auto;
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+    
+}
+.heading{
+    text-align: center;
+    height: 10vh;
+    width: 73vw;
+    font-weight: bold;
+    font-family:sans-serif;
+    padding-top:10px ;
+    margin: auto;
+    
+    
+   
+}
+.heading h1{
+    animation-name: ex1;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+
+}
+.heading h3{
+    padding-top: 10px;
+    opacity: 0.5;
+}
+.clientinfo{
+
+    height:auto;
+    width: 70vw;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    word-spacing: 3px;
+   text-align: center; 
+   padding-top:17px ;
+   margin:auto;
+  
+   
+    
+    
+}
+
+input[type=text],textarea,[type=number],[type=email] {
+    width: 40vw;
+    height: 6vh;
+    border-radius: 6px;
+    padding: 2px 3px 3px 5px;
+    margin: 5px 5px 5px 5px;
+    border-color: rgb(111, 64, 107);
+    border-width: 3px;
+    background-color: rgb(169, 161, 161);
+    opacity: 0.7;
+    color:rgb(18, 16, 19);
+    font-weight: bolder;
+    font-size: large;
+    font-weight: bolder;
+  }
+ 
+.clientinfo button{
+    margin-top: 19px;
+    padding: 20px;
+    color:rgb(189, 45, 191) ;
+    background-color: rgb(220, 212, 212);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    
+
+}
+.clientinfo button:hover{
+    background-color: rgb(207, 47, 210);
+    color:rgb(208, 198, 198);
+    font-size: large;
+
+
+}
+.mypro{
+
+    padding-top: 10px ;
+    width: 70vw;
+    height: auto;
+    margin-top: 5px;
+    white-space: 2px;
+    text-indent: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+.mypro a{
+    
+    color:rgb(205, 195, 205);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+       
+
+}
+.mypro a:hover{
+    color:blueviolet;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.myintro{
+    width:77vw;
+    height: 60vh;
+    color:black;
+}
+#dev1 li{
+    margin: 10px;
+    word-spacing: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:  20px; 
+    
+}
+#dev2 li{
+    margin: 10px;
+    word-spacing: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:  18px; 
+}
+
+.intromain h2{
+
+    font-size: 20px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 10px;
+    color:blueviolet;
+}
+
+ .intromain #imgs{
+
+    height: 40vh;
+    padding-left: 30px;
+     word-spacing: 100px;
+    
+   }
+   .intromain{
+    display:inline;
+    width: 100vw;
+    height: auto;
+}
+   .main1{
+    background-image: url("pinkback.jpg");
+    color:aliceblue;
+    margin-top: -10px;
+    padding: 0;
+   height: 100vh;
+   }
+
+   @media(min-height:550){
+    .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }
+   }
+   
+
+        
+   .myintro h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+
+    
+}
+
+#introhead{
+width: 95vw;
+height: 10vh;
+padding: 5px;
+margin-top: 7px;
+margin-bottom: -5px;
+text-indent: 5px;
+
+margin-left: 7px ;
+text-align: left;
+
+}
+
+#head2{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-seriffo  ; 
+font-size:20px;
+font-weight: bold;
+ text-align: right; 
+ 
+    
+}
+#head2 a{
+text-decoration: none;
+color:whitesmoke;
+font-family: cursive;
+
+
+}
+#head2 a:hover{
+
+color:blueviolet;
+ font-weight: bold;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#linke a
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:wheat;
+}
+.contactform{
+    background-image: url("pinkback.jpg");
+    color: white;
+    height: 100vh;
+}
